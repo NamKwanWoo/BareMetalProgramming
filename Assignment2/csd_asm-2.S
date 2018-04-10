@@ -30,7 +30,7 @@ main:
 	ldreq r9, =LEDS				// true then r9 = LEDS address  (Data)
 
 	ldr r2, [r9], #4			// r2 = [r9] and update r9 = r9 + #4
-	str r2, [r10]				// r2ÀÇ °ªÀ» r1 ¸Ş¸ğ¸® ÀÚ¸®¿¡ ÀúÀå
+	str r2, [r10]				// r2ì˜ ê°’ì„ r1 ë©”ëª¨ë¦¬ ìë¦¬ì— ì €ì¥
 	bl csd_main					// branch and link csd_main
 
 	bl START					// branch and link START Lable
