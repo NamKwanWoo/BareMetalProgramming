@@ -106,7 +106,7 @@ exit:
     mov r11, #0				// r11 = #0	(initialize)
 
 
-
+//
 //================================================= register usage =================================================\\
 // r0 = point input_data address                                                                                    \\
 // r2 = flag for exit condition                                                                                     \\
